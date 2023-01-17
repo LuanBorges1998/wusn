@@ -1,0 +1,721 @@
+
+1.264812825468    SN.node[34].Application                  Sensed = 1.345
+1.264812825468    SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+5.57868575527     SN.node[31].Application                  Sensed = 1.702
+5.57868575527     SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+8.592582913696    SN.node[30].Application                  Sensed = 0.873
+8.592582913696    SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+9.422426584478    SN.node[14].Application                  Sensed = 1.836
+9.422426584478    SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+13.340131670771   SN.node[23].Application                  Sensed = 0
+13.340131670771   SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+15.477157996966   SN.node[18].Application                  Sensed = 0
+15.477157996966   SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+15.55608410494    SN.node[11].Application                  Sensed = 0
+15.55608410494    SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+16.502474961208   SN.node[21].Application                  Sensed = 0.063
+16.502474961208   SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+17.014078534847   SN.node[16].Application                  Sensed = 0.045
+17.014078534847   SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+18.385173867549   SN.node[1].Application                   Sensed = 0.029
+18.385173867549   SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+18.403664994274   SN.node[9].Application                   Sensed = 0
+18.403664994274   SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+19.552183373527   SN.node[28].Application                  Sensed = 0.014
+19.552183373527   SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+22.724290070833   SN.node[8].Application                   Sensed = 0
+22.724290070833   SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+23.3029072216     SN.node[29].Application                  Sensed = 0.156
+23.3029072216     SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+23.98145482022    SN.node[3].Application                   Sensed = 0
+23.98145482022    SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+24.14283763389    SN.node[32].Application                  Sensed = 0.029
+24.14283763389    SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+24.871803432259   SN.node[35].Application                  Sensed = 0
+24.871803432259   SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+24.907565579702   SN.node[20].Application                  Sensed = 0.187
+24.907565579702   SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+25.526911247451   SN.node[10].Application                  Sensed = 0.187
+25.526911247451   SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+26.433502622239   SN.node[12].Application                  Sensed = 0
+26.433502622239   SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+27.287244748067   SN.node[25].Application                  Sensed = 0
+27.287244748067   SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+32.691335172263   SN.node[15].Application                  Sensed = 0
+32.691335172263   SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+33.168348447523   SN.node[13].Application                  Sensed = 0
+33.168348447523   SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+35.203264750074   SN.node[5].Application                   Sensed = 0.025
+35.203264750074   SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+40.375477919261   SN.node[24].Application                  Sensed = 0.167
+40.375477919261   SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+41.592952746594   SN.node[17].Application                  Sensed = 0.029
+41.592952746594   SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+43.130862892604   SN.node[6].Application                   Sensed = 0.195
+43.130862892604   SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+45.473839097853   SN.node[26].Application                  Sensed = 0
+45.473839097853   SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+46.833430951926   SN.node[4].Application                   Sensed = 0
+46.833430951926   SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+48.57115936625    SN.node[2].Application                   Sensed = 0.315
+48.57115936625    SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+49.071938892756   SN.node[27].Application                  Sensed = 0
+49.071938892756   SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+50.783343669411   SN.node[33].Application                  Sensed = 0
+50.783343669411   SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+53.606748042522   SN.node[22].Application                  Sensed = 0
+53.606748042522   SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+54.204787333542   SN.node[19].Application                  Sensed = 0
+54.204787333542   SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+56.210559073206   SN.node[0].Application                   Sensed = 0
+56.210559073206   SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+58.588191242014   SN.node[7].Application                   Sensed = 0.019
+58.588191242014   SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+61.264812825468   SN.node[34].Application                  Sensed = 0.065
+61.264812825468   SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+65.57868575527    SN.node[31].Application                  Sensed = 0
+65.57868575527    SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+68.592582913696   SN.node[30].Application                  Sensed = 0.098
+68.592582913696   SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+69.422426584478   SN.node[14].Application                  Sensed = 0
+69.422426584478   SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+73.340131670771   SN.node[23].Application                  Sensed = 0.01
+73.340131670771   SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+75.477157996966   SN.node[18].Application                  Sensed = 0.07
+75.477157996966   SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+75.55608410494    SN.node[11].Application                  Sensed = 0
+75.55608410494    SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+76.502474961208   SN.node[21].Application                  Sensed = 0.171
+76.502474961208   SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+77.014078534847   SN.node[16].Application                  Sensed = 0.052
+77.014078534847   SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+78.385173867549   SN.node[1].Application                   Sensed = 0
+78.385173867549   SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+78.403664994274   SN.node[9].Application                   Sensed = 0
+78.403664994274   SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+79.552183373527   SN.node[28].Application                  Sensed = 0.042
+79.552183373527   SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+82.724290070833   SN.node[8].Application                   Sensed = 0.091
+82.724290070833   SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+83.3029072216     SN.node[29].Application                  Sensed = 0.014
+83.3029072216     SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+83.98145482022    SN.node[3].Application                   Sensed = 0
+83.98145482022    SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+84.14283763389    SN.node[32].Application                  Sensed = 0.092
+84.14283763389    SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+84.871803432259   SN.node[35].Application                  Sensed = 0
+84.871803432259   SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+84.907565579702   SN.node[20].Application                  Sensed = 0.028
+84.907565579702   SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+85.526911247451   SN.node[10].Application                  Sensed = 0.081
+85.526911247451   SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+86.433502622239   SN.node[12].Application                  Sensed = 0
+86.433502622239   SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+87.287244748067   SN.node[25].Application                  Sensed = 0
+87.287244748067   SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+92.691335172263   SN.node[15].Application                  Sensed = 0
+92.691335172263   SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+93.168348447523   SN.node[13].Application                  Sensed = 0
+93.168348447523   SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+95.203264750074   SN.node[5].Application                   Sensed = 0
+95.203264750074   SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+100.375477919261  SN.node[24].Application                  Sensed = 0.073
+100.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+101.592952746594  SN.node[17].Application                  Sensed = 0
+101.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+103.130862892604  SN.node[6].Application                   Sensed = 0.04
+103.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+105.473839097853  SN.node[26].Application                  Sensed = 0
+105.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+106.833430951926  SN.node[4].Application                   Sensed = 0
+106.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+108.57115936625   SN.node[2].Application                   Sensed = 0.143
+108.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+109.071938892756  SN.node[27].Application                  Sensed = 0
+109.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+110.783343669411  SN.node[33].Application                  Sensed = 0
+110.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+113.606748042522  SN.node[22].Application                  Sensed = 0.093
+113.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+114.204787333542  SN.node[19].Application                  Sensed = 0.091
+114.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+116.210559073206  SN.node[0].Application                   Sensed = 0.002
+116.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+118.588191242014  SN.node[7].Application                   Sensed = 0.124
+118.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+121.264812825468  SN.node[34].Application                  Sensed = 0
+121.264812825468  SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+125.57868575527   SN.node[31].Application                  Sensed = 0
+125.57868575527   SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+128.592582913696  SN.node[30].Application                  Sensed = 0.07
+128.592582913696  SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+129.422426584478  SN.node[14].Application                  Sensed = 0
+129.422426584478  SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+133.340131670771  SN.node[23].Application                  Sensed = 0.185
+133.340131670771  SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+135.477157996966  SN.node[18].Application                  Sensed = 0.075
+135.477157996966  SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+135.55608410494   SN.node[11].Application                  Sensed = 0
+135.55608410494   SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+136.502474961208  SN.node[21].Application                  Sensed = 0.077
+136.502474961208  SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+137.014078534847  SN.node[16].Application                  Sensed = 0.142
+137.014078534847  SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+138.385173867549  SN.node[1].Application                   Sensed = 0
+138.385173867549  SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+138.403664994274  SN.node[9].Application                   Sensed = 0
+138.403664994274  SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+139.552183373527  SN.node[28].Application                  Sensed = 0.097
+139.552183373527  SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+142.724290070833  SN.node[8].Application                   Sensed = 0.085
+142.724290070833  SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+143.3029072216    SN.node[29].Application                  Sensed = 0
+143.3029072216    SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+143.98145482022   SN.node[3].Application                   Sensed = 0
+143.98145482022   SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+144.14283763389   SN.node[32].Application                  Sensed = 0
+144.14283763389   SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+144.871803432259  SN.node[35].Application                  Sensed = 0
+144.871803432259  SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+144.907565579702  SN.node[20].Application                  Sensed = 0
+144.907565579702  SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+145.526911247451  SN.node[10].Application                  Sensed = 0.04
+145.526911247451  SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+146.433502622239  SN.node[12].Application                  Sensed = 0
+146.433502622239  SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+147.287244748067  SN.node[25].Application                  Sensed = 0
+147.287244748067  SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+152.691335172263  SN.node[15].Application                  Sensed = 0.074
+152.691335172263  SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+153.168348447523  SN.node[13].Application                  Sensed = 0
+153.168348447523  SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+155.203264750074  SN.node[5].Application                   Sensed = 0.01
+155.203264750074  SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+160.375477919261  SN.node[24].Application                  Sensed = 0.251
+160.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+161.592952746594  SN.node[17].Application                  Sensed = 0
+161.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+163.130862892604  SN.node[6].Application                   Sensed = 0.109
+163.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+165.473839097853  SN.node[26].Application                  Sensed = 0.052
+165.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+166.833430951926  SN.node[4].Application                   Sensed = 0.005
+166.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+168.57115936625   SN.node[2].Application                   Sensed = 0.005
+168.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+169.071938892756  SN.node[27].Application                  Sensed = 0.17
+169.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+170.783343669411  SN.node[33].Application                  Sensed = 0
+170.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+173.606748042522  SN.node[22].Application                  Sensed = 0
+173.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+174.204787333542  SN.node[19].Application                  Sensed = 0.156
+174.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+176.210559073206  SN.node[0].Application                   Sensed = 0
+176.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+178.588191242014  SN.node[7].Application                   Sensed = 0
+178.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+181.264812825468  SN.node[34].Application                  Sensed = 0
+181.264812825468  SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+185.57868575527   SN.node[31].Application                  Sensed = 0.06
+185.57868575527   SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+188.592582913696  SN.node[30].Application                  Sensed = 0
+188.592582913696  SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+189.422426584478  SN.node[14].Application                  Sensed = 0.023
+189.422426584478  SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+193.340131670771  SN.node[23].Application                  Sensed = 0.025
+193.340131670771  SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+195.477157996966  SN.node[18].Application                  Sensed = 0
+195.477157996966  SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+195.55608410494   SN.node[11].Application                  Sensed = 0
+195.55608410494   SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+196.502474961208  SN.node[21].Application                  Sensed = 0
+196.502474961208  SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+197.014078534847  SN.node[16].Application                  Sensed = 0
+197.014078534847  SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+198.385173867549  SN.node[1].Application                   Sensed = 0
+198.385173867549  SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+198.403664994274  SN.node[9].Application                   Sensed = 0
+198.403664994274  SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+199.552183373527  SN.node[28].Application                  Sensed = 0
+199.552183373527  SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+202.724290070833  SN.node[8].Application                   Sensed = 0
+202.724290070833  SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+203.3029072216    SN.node[29].Application                  Sensed = 0.007
+203.3029072216    SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+203.98145482022   SN.node[3].Application                   Sensed = 0
+203.98145482022   SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+204.14283763389   SN.node[32].Application                  Sensed = 0.059
+204.14283763389   SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+204.871803432259  SN.node[35].Application                  Sensed = 0
+204.871803432259  SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+204.907565579702  SN.node[20].Application                  Sensed = 0
+204.907565579702  SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+205.526911247451  SN.node[10].Application                  Sensed = 0.067
+205.526911247451  SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+206.433502622239  SN.node[12].Application                  Sensed = 0
+206.433502622239  SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+207.287244748067  SN.node[25].Application                  Sensed = 0
+207.287244748067  SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+212.691335172263  SN.node[15].Application                  Sensed = 0
+212.691335172263  SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+213.168348447523  SN.node[13].Application                  Sensed = 0
+213.168348447523  SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+215.203264750074  SN.node[5].Application                   Sensed = 0.052
+215.203264750074  SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+220.375477919261  SN.node[24].Application                  Sensed = 0.164
+220.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+221.592952746594  SN.node[17].Application                  Sensed = 0.001
+221.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+223.130862892604  SN.node[6].Application                   Sensed = 0.014
+223.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+225.473839097853  SN.node[26].Application                  Sensed = 0
+225.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+226.833430951926  SN.node[4].Application                   Sensed = 0
+226.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+228.57115936625   SN.node[2].Application                   Sensed = 0.15
+228.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+229.071938892756  SN.node[27].Application                  Sensed = 0
+229.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+230.783343669411  SN.node[33].Application                  Sensed = 0
+230.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+233.606748042522  SN.node[22].Application                  Sensed = 0.152
+233.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+234.204787333542  SN.node[19].Application                  Sensed = 0
+234.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+236.210559073206  SN.node[0].Application                   Sensed = 0.035
+236.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+238.588191242014  SN.node[7].Application                   Sensed = 0.04
+238.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+241.264812825468  SN.node[34].Application                  Sensed = 0.057
+241.264812825468  SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+245.57868575527   SN.node[31].Application                  Sensed = 0.055
+245.57868575527   SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+248.592582913696  SN.node[30].Application                  Sensed = 0
+248.592582913696  SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+249.422426584478  SN.node[14].Application                  Sensed = 0
+249.422426584478  SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+253.340131670771  SN.node[23].Application                  Sensed = 0
+253.340131670771  SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+255.477157996966  SN.node[18].Application                  Sensed = 0
+255.477157996966  SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+255.55608410494   SN.node[11].Application                  Sensed = 0
+255.55608410494   SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+256.502474961208  SN.node[21].Application                  Sensed = 0.234
+256.502474961208  SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+257.014078534847  SN.node[16].Application                  Sensed = 0
+257.014078534847  SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+258.385173867549  SN.node[1].Application                   Sensed = 0
+258.385173867549  SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+258.403664994274  SN.node[9].Application                   Sensed = 0
+258.403664994274  SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+259.552183373527  SN.node[28].Application                  Sensed = 0
+259.552183373527  SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+262.724290070833  SN.node[8].Application                   Sensed = 0.2
+262.724290070833  SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+263.3029072216    SN.node[29].Application                  Sensed = 0.113
+263.3029072216    SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+263.98145482022   SN.node[3].Application                   Sensed = 0
+263.98145482022   SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+264.14283763389   SN.node[32].Application                  Sensed = 0.074
+264.14283763389   SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+264.871803432259  SN.node[35].Application                  Sensed = 0
+264.871803432259  SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+264.907565579702  SN.node[20].Application                  Sensed = 0
+264.907565579702  SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+265.526911247451  SN.node[10].Application                  Sensed = 0.051
+265.526911247451  SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+266.433502622239  SN.node[12].Application                  Sensed = 0
+266.433502622239  SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+267.287244748067  SN.node[25].Application                  Sensed = 0
+267.287244748067  SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+272.691335172263  SN.node[15].Application                  Sensed = 0
+272.691335172263  SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+273.168348447523  SN.node[13].Application                  Sensed = 0
+273.168348447523  SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+275.203264750074  SN.node[5].Application                   Sensed = 0
+275.203264750074  SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+280.375477919261  SN.node[24].Application                  Sensed = 0.084
+280.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+281.592952746594  SN.node[17].Application                  Sensed = 0.182
+281.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+283.130862892604  SN.node[6].Application                   Sensed = 0.018
+283.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+285.473839097853  SN.node[26].Application                  Sensed = 0.048
+285.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+286.833430951926  SN.node[4].Application                   Sensed = 0.034
+286.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+288.57115936625   SN.node[2].Application                   Sensed = 0.025
+288.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+289.071938892756  SN.node[27].Application                  Sensed = 0
+289.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+290.783343669411  SN.node[33].Application                  Sensed = 0.08
+290.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+293.606748042522  SN.node[22].Application                  Sensed = 0
+293.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+294.204787333542  SN.node[19].Application                  Sensed = 0.037
+294.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+296.210559073206  SN.node[0].Application                   Sensed = 0
+296.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+298.588191242014  SN.node[7].Application                   Sensed = 0.159
+298.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+301.264812825468  SN.node[34].Application                  Sensed = 0
+301.264812825468  SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+305.57868575527   SN.node[31].Application                  Sensed = 0
+305.57868575527   SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+308.592582913696  SN.node[30].Application                  Sensed = 0.073
+308.592582913696  SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+309.422426584478  SN.node[14].Application                  Sensed = 0
+309.422426584478  SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+313.340131670771  SN.node[23].Application                  Sensed = 0.102
+313.340131670771  SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+315.477157996966  SN.node[18].Application                  Sensed = 0
+315.477157996966  SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+315.55608410494   SN.node[11].Application                  Sensed = 0
+315.55608410494   SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+316.502474961208  SN.node[21].Application                  Sensed = 0.143
+316.502474961208  SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+317.014078534847  SN.node[16].Application                  Sensed = 0.054
+317.014078534847  SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+318.385173867549  SN.node[1].Application                   Sensed = 0.015
+318.385173867549  SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+318.403664994274  SN.node[9].Application                   Sensed = 0
+318.403664994274  SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+319.552183373527  SN.node[28].Application                  Sensed = 0
+319.552183373527  SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+322.724290070833  SN.node[8].Application                   Sensed = 0.139
+322.724290070833  SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+323.3029072216    SN.node[29].Application                  Sensed = 0.13
+323.3029072216    SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+323.98145482022   SN.node[3].Application                   Sensed = 0
+323.98145482022   SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+324.14283763389   SN.node[32].Application                  Sensed = 0.197
+324.14283763389   SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+324.871803432259  SN.node[35].Application                  Sensed = 0
+324.871803432259  SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+324.907565579702  SN.node[20].Application                  Sensed = 0
+324.907565579702  SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+325.526911247451  SN.node[10].Application                  Sensed = 0.1
+325.526911247451  SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+326.433502622239  SN.node[12].Application                  Sensed = 0
+326.433502622239  SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+327.287244748067  SN.node[25].Application                  Sensed = 0.041
+327.287244748067  SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+332.691335172263  SN.node[15].Application                  Sensed = 0
+332.691335172263  SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+333.168348447523  SN.node[13].Application                  Sensed = 0.06
+333.168348447523  SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+335.203264750074  SN.node[5].Application                   Sensed = 0.001
+335.203264750074  SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+340.375477919261  SN.node[24].Application                  Sensed = 0.406
+340.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+341.592952746594  SN.node[17].Application                  Sensed = 0.032
+341.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+343.130862892604  SN.node[6].Application                   Sensed = 0.082
+343.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+345.473839097853  SN.node[26].Application                  Sensed = 0
+345.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+346.833430951926  SN.node[4].Application                   Sensed = 0
+346.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+348.57115936625   SN.node[2].Application                   Sensed = 0.033
+348.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+349.071938892756  SN.node[27].Application                  Sensed = 0
+349.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+350.783343669411  SN.node[33].Application                  Sensed = 0
+350.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+353.606748042522  SN.node[22].Application                  Sensed = 0.21
+353.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+354.204787333542  SN.node[19].Application                  Sensed = 0.09
+354.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+356.210559073206  SN.node[0].Application                   Sensed = 0
+356.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+358.588191242014  SN.node[7].Application                   Sensed = 0.005
+358.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+361.264812825468  SN.node[34].Application                  Sensed = 0.133
+361.264812825468  SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+365.57868575527   SN.node[31].Application                  Sensed = 0
+365.57868575527   SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+368.592582913696  SN.node[30].Application                  Sensed = 0
+368.592582913696  SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+369.422426584478  SN.node[14].Application                  Sensed = 0
+369.422426584478  SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+373.340131670771  SN.node[23].Application                  Sensed = 0
+373.340131670771  SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+375.477157996966  SN.node[18].Application                  Sensed = 0
+375.477157996966  SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+375.55608410494   SN.node[11].Application                  Sensed = 0
+375.55608410494   SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+376.502474961208  SN.node[21].Application                  Sensed = 0.046
+376.502474961208  SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+377.014078534847  SN.node[16].Application                  Sensed = 0.213
+377.014078534847  SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+378.385173867549  SN.node[1].Application                   Sensed = 0
+378.385173867549  SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+378.403664994274  SN.node[9].Application                   Sensed = 0
+378.403664994274  SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+379.552183373527  SN.node[28].Application                  Sensed = 0.046
+379.552183373527  SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+382.724290070833  SN.node[8].Application                   Sensed = 0
+382.724290070833  SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+383.3029072216    SN.node[29].Application                  Sensed = 0.068
+383.3029072216    SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+383.98145482022   SN.node[3].Application                   Sensed = 0
+383.98145482022   SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+384.14283763389   SN.node[32].Application                  Sensed = 0.209
+384.14283763389   SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+384.871803432259  SN.node[35].Application                  Sensed = 0
+384.871803432259  SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+384.907565579702  SN.node[20].Application                  Sensed = 0
+384.907565579702  SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+385.526911247451  SN.node[10].Application                  Sensed = 0.01
+385.526911247451  SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+386.433502622239  SN.node[12].Application                  Sensed = 0
+386.433502622239  SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+387.287244748067  SN.node[25].Application                  Sensed = 0
+387.287244748067  SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+392.691335172263  SN.node[15].Application                  Sensed = 0.026
+392.691335172263  SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+393.168348447523  SN.node[13].Application                  Sensed = 0.15
+393.168348447523  SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+395.203264750074  SN.node[5].Application                   Sensed = 0.094
+395.203264750074  SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+400.375477919261  SN.node[24].Application                  Sensed = 0.067
+400.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+401.592952746594  SN.node[17].Application                  Sensed = 0.159
+401.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+403.130862892604  SN.node[6].Application                   Sensed = 0.217
+403.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+405.473839097853  SN.node[26].Application                  Sensed = 0
+405.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+406.833430951926  SN.node[4].Application                   Sensed = 0
+406.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+408.57115936625   SN.node[2].Application                   Sensed = 0.231
+408.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+409.071938892756  SN.node[27].Application                  Sensed = 0
+409.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+410.783343669411  SN.node[33].Application                  Sensed = 0
+410.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+413.606748042522  SN.node[22].Application                  Sensed = 0
+413.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+414.204787333542  SN.node[19].Application                  Sensed = 0
+414.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+416.210559073206  SN.node[0].Application                   Sensed = 0.167
+416.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+418.588191242014  SN.node[7].Application                   Sensed = 0
+418.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+421.264812825468  SN.node[34].Application                  Sensed = 0
+421.264812825468  SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+425.57868575527   SN.node[31].Application                  Sensed = 0
+425.57868575527   SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+428.592582913696  SN.node[30].Application                  Sensed = 0
+428.592582913696  SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+429.422426584478  SN.node[14].Application                  Sensed = 0.005
+429.422426584478  SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+433.340131670771  SN.node[23].Application                  Sensed = 0.215
+433.340131670771  SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+435.477157996966  SN.node[18].Application                  Sensed = 0
+435.477157996966  SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+435.55608410494   SN.node[11].Application                  Sensed = 0
+435.55608410494   SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+436.502474961208  SN.node[21].Application                  Sensed = 0.293
+436.502474961208  SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+437.014078534847  SN.node[16].Application                  Sensed = 0.047
+437.014078534847  SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+438.385173867549  SN.node[1].Application                   Sensed = 0
+438.385173867549  SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+438.403664994274  SN.node[9].Application                   Sensed = 0
+438.403664994274  SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+439.552183373527  SN.node[28].Application                  Sensed = 0
+439.552183373527  SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+442.724290070833  SN.node[8].Application                   Sensed = 0.146
+442.724290070833  SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+443.3029072216    SN.node[29].Application                  Sensed = 0.029
+443.3029072216    SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+443.98145482022   SN.node[3].Application                   Sensed = 0
+443.98145482022   SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+444.14283763389   SN.node[32].Application                  Sensed = 0
+444.14283763389   SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+444.871803432259  SN.node[35].Application                  Sensed = 0
+444.871803432259  SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+444.907565579702  SN.node[20].Application                  Sensed = 0
+444.907565579702  SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+445.526911247451  SN.node[10].Application                  Sensed = 0.029
+445.526911247451  SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+446.433502622239  SN.node[12].Application                  Sensed = 0
+446.433502622239  SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+447.287244748067  SN.node[25].Application                  Sensed = 0.085
+447.287244748067  SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+452.691335172263  SN.node[15].Application                  Sensed = 0
+452.691335172263  SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+453.168348447523  SN.node[13].Application                  Sensed = 0
+453.168348447523  SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+455.203264750074  SN.node[5].Application                   Sensed = 0
+455.203264750074  SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+460.375477919261  SN.node[24].Application                  Sensed = 0.226
+460.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+461.592952746594  SN.node[17].Application                  Sensed = 0
+461.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+463.130862892604  SN.node[6].Application                   Sensed = 0.062
+463.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+465.473839097853  SN.node[26].Application                  Sensed = 0
+465.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+466.833430951926  SN.node[4].Application                   Sensed = 0
+466.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+468.57115936625   SN.node[2].Application                   Sensed = 0
+468.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+469.071938892756  SN.node[27].Application                  Sensed = 0
+469.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+470.783343669411  SN.node[33].Application                  Sensed = 0
+470.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+473.606748042522  SN.node[22].Application                  Sensed = 0
+473.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+474.204787333542  SN.node[19].Application                  Sensed = 0
+474.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+476.210559073206  SN.node[0].Application                   Sensed = 0
+476.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+478.588191242014  SN.node[7].Application                   Sensed = 0
+478.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+481.264812825468  SN.node[34].Application                  Sensed = 0.02
+481.264812825468  SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+485.57868575527   SN.node[31].Application                  Sensed = 0.011
+485.57868575527   SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+488.592582913696  SN.node[30].Application                  Sensed = 0
+488.592582913696  SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+489.422426584478  SN.node[14].Application                  Sensed = 0
+489.422426584478  SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+493.340131670771  SN.node[23].Application                  Sensed = 0.122
+493.340131670771  SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+495.477157996966  SN.node[18].Application                  Sensed = 0.1
+495.477157996966  SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+495.55608410494   SN.node[11].Application                  Sensed = 0.23
+495.55608410494   SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+496.502474961208  SN.node[21].Application                  Sensed = 0.077
+496.502474961208  SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+497.014078534847  SN.node[16].Application                  Sensed = 0.027
+497.014078534847  SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+498.385173867549  SN.node[1].Application                   Sensed = 0
+498.385173867549  SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+498.403664994274  SN.node[9].Application                   Sensed = 0
+498.403664994274  SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+499.552183373527  SN.node[28].Application                  Sensed = 0.084
+499.552183373527  SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+502.724290070833  SN.node[8].Application                   Sensed = 0.142
+502.724290070833  SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+503.3029072216    SN.node[29].Application                  Sensed = 0.019
+503.3029072216    SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+503.98145482022   SN.node[3].Application                   Sensed = 0
+503.98145482022   SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+504.14283763389   SN.node[32].Application                  Sensed = 0.011
+504.14283763389   SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+504.871803432259  SN.node[35].Application                  Sensed = 0
+504.871803432259  SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+504.907565579702  SN.node[20].Application                  Sensed = 0
+504.907565579702  SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+505.526911247451  SN.node[10].Application                  Sensed = 0
+505.526911247451  SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+506.433502622239  SN.node[12].Application                  Sensed = 0.01
+506.433502622239  SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+507.287244748067  SN.node[25].Application                  Sensed = 0
+507.287244748067  SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+512.691335172263  SN.node[15].Application                  Sensed = 0
+512.691335172263  SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+513.168348447523  SN.node[13].Application                  Sensed = 0.062
+513.168348447523  SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+515.203264750074  SN.node[5].Application                   Sensed = 0.129
+515.203264750074  SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+520.375477919261  SN.node[24].Application                  Sensed = 0.031
+520.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+521.592952746594  SN.node[17].Application                  Sensed = 0.177
+521.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+523.130862892604  SN.node[6].Application                   Sensed = 0.194
+523.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+525.473839097853  SN.node[26].Application                  Sensed = 0
+525.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+526.833430951926  SN.node[4].Application                   Sensed = 0
+526.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+528.57115936625   SN.node[2].Application                   Sensed = 0.068
+528.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+529.071938892756  SN.node[27].Application                  Sensed = 0
+529.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+530.783343669411  SN.node[33].Application                  Sensed = 0
+530.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+533.606748042522  SN.node[22].Application                  Sensed = 0
+533.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+534.204787333542  SN.node[19].Application                  Sensed = 0
+534.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+536.210559073206  SN.node[0].Application                   Sensed = 0
+536.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+538.588191242014  SN.node[7].Application                   Sensed = 0.053
+538.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+541.264812825468  SN.node[34].Application                  Sensed = 0
+541.264812825468  SN.node[34].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+545.57868575527   SN.node[31].Application                  Sensed = 0
+545.57868575527   SN.node[31].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+548.592582913696  SN.node[30].Application                  Sensed = 0
+548.592582913696  SN.node[30].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+549.422426584478  SN.node[14].Application                  Sensed = 0
+549.422426584478  SN.node[14].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+553.340131670771  SN.node[23].Application                  Sensed = 0.075
+553.340131670771  SN.node[23].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+555.477157996966  SN.node[18].Application                  Sensed = 0
+555.477157996966  SN.node[18].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+555.55608410494   SN.node[11].Application                  Sensed = 0
+555.55608410494   SN.node[11].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+556.502474961208  SN.node[21].Application                  Sensed = 0.113
+556.502474961208  SN.node[21].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+557.014078534847  SN.node[16].Application                  Sensed = 0
+557.014078534847  SN.node[16].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+558.385173867549  SN.node[1].Application                   Sensed = 0
+558.385173867549  SN.node[1].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+558.403664994274  SN.node[9].Application                   Sensed = 0
+558.403664994274  SN.node[9].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+559.552183373527  SN.node[28].Application                  Sensed = 0.056
+559.552183373527  SN.node[28].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+562.724290070833  SN.node[8].Application                   Sensed = 0
+562.724290070833  SN.node[8].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+563.3029072216    SN.node[29].Application                  Sensed = 0.198
+563.3029072216    SN.node[29].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+563.98145482022   SN.node[3].Application                   Sensed = 0
+563.98145482022   SN.node[3].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+564.14283763389   SN.node[32].Application                  Sensed = 0.103
+564.14283763389   SN.node[32].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+564.871803432259  SN.node[35].Application                  Sensed = 0
+564.871803432259  SN.node[35].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+564.907565579702  SN.node[20].Application                  Sensed = 0.037
+564.907565579702  SN.node[20].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+565.526911247451  SN.node[10].Application                  Sensed = 0.245
+565.526911247451  SN.node[10].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+566.433502622239  SN.node[12].Application                  Sensed = 0.011
+566.433502622239  SN.node[12].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+567.287244748067  SN.node[25].Application                  Sensed = 0.037
+567.287244748067  SN.node[25].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+572.691335172263  SN.node[15].Application                  Sensed = 0
+572.691335172263  SN.node[15].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+573.168348447523  SN.node[13].Application                  Sensed = 0
+573.168348447523  SN.node[13].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+575.203264750074  SN.node[5].Application                   Sensed = 0.134
+575.203264750074  SN.node[5].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+580.375477919261  SN.node[24].Application                  Sensed = 0.138
+580.375477919261  SN.node[24].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+581.592952746594  SN.node[17].Application                  Sensed = 0.24
+581.592952746594  SN.node[17].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+583.130862892604  SN.node[6].Application                   Sensed = 0.078
+583.130862892604  SN.node[6].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+585.473839097853  SN.node[26].Application                  Sensed = 0.078
+585.473839097853  SN.node[26].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+586.833430951926  SN.node[4].Application                   Sensed = 0.089
+586.833430951926  SN.node[4].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+588.57115936625   SN.node[2].Application                   Sensed = 0.049
+588.57115936625   SN.node[2].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+589.071938892756  SN.node[27].Application                  Sensed = 0
+589.071938892756  SN.node[27].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+590.783343669411  SN.node[33].Application                  Sensed = 0.047
+590.783343669411  SN.node[33].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+593.606748042522  SN.node[22].Application                  Sensed = 0
+593.606748042522  SN.node[22].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+594.204787333542  SN.node[19].Application                  Sensed = 0.131
+594.204787333542  SN.node[19].Application                  Sending [Value reporting pck] of size 20 bytes to communication layer
+596.210559073206  SN.node[0].Application                   Sensed = 0.03
+596.210559073206  SN.node[0].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer
+598.588191242014  SN.node[7].Application                   Sensed = 0
+598.588191242014  SN.node[7].Application                   Sending [Value reporting pck] of size 20 bytes to communication layer

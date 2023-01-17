@@ -1,0 +1,3 @@
+package wusn;
+
+@license(LGPL);

@@ -1,0 +1,1140 @@
+Castalia| what:General (1)
+Castalia| when:2022-04-09 17:41
+Castalia| repeat:0 label:General
+Castalia|		module:SN.Simulation
+Castalia|			simple output name:Execution time, seconds
+Castalia|				6.667
+Castalia|			simple output name:Execution ratio (simtime/realtime)
+Castalia|				22.4988750562
+Castalia|	module:SN.node[0].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[0].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0183599 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22922 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.68583 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			549 Received with NO interference
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:1 simple output name:Pacotes enviados por no
+Castalia|			27 
+Castalia|		 index:2 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:3 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:4 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:5 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:6 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:7 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:12 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:13 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:18 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:19 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:24 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:25 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:30 simple output name:Pacotes enviados por no
+Castalia|			22 
+Castalia|		 index:31 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:32 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:33 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:34 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:35 simple output name:Pacotes enviados por no
+Castalia|			33 
+Castalia|		 index:36 simple output name:Pacotes enviados por no
+Castalia|			27 
+Castalia|		 index:1 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:2 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:3 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:4 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:5 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:6 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:7 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:12 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:13 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:18 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:19 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:24 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:25 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:30 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:31 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:32 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:33 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:34 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:35 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:36 simple output name:Taxa de pacotes recebidos
+Castalia|			1 total
+Castalia|		 index:1 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:2 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:3 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:4 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:5 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:6 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:7 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:12 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:13 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:18 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:19 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:24 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:25 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:30 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:31 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:32 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:33 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:34 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:35 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|		 index:36 simple output name:Taxa de perda de pacote
+Castalia|			0 total
+Castalia|	module:SN.node[1].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20987 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20987 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[1].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0023575 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23643 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67893 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			27 TX pkts
+Castalia|	module:SN.node[1].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			186791 
+Castalia|	module:SN.node[2].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20881 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20881 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[2].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0236049 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23432 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67893 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[2].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229130 
+Castalia|	module:SN.node[3].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20862 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20862 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[3].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0279983 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23414 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67893 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[3].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229120 
+Castalia|	module:SN.node[4].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20868 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20868 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[4].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00969682 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23491 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67893 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[4].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229162 
+Castalia|	module:SN.node[5].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20874 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20874 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[5].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00404429 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23515 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67893 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[5].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229175 
+Castalia|	module:SN.node[6].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20855 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20855 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[6].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0170276 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.2346 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67893 
+Castalia|	module:SN.node[6].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[6].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229145 
+Castalia|	module:SN.node[7].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.21119 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.21119 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[7].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.018977 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23718 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67757 
+Castalia|	module:SN.node[7].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[7].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152856 
+Castalia|	module:SN.node[8].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[8].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0297649 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22874 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67757 
+Castalia|	module:SN.node[9].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[9].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0145687 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22938 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67757 
+Castalia|	module:SN.node[10].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[10].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0298764 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22874 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67757 
+Castalia|	module:SN.node[11].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[11].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.000624934 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22997 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67757 
+Castalia|	module:SN.node[12].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20864 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20864 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[12].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00418618 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23514 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67757 
+Castalia|	module:SN.node[12].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[12].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229174 
+Castalia|	module:SN.node[13].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.21138 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.21138 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[13].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00135436 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23792 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[13].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[13].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152883 
+Castalia|	module:SN.node[14].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[14].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0069081 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22971 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[15].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[15].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00826294 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22965 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[16].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[16].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00171557 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22993 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[17].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[17].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00311838 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22987 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[18].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20869 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20869 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[18].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0146937 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.2347 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[18].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[18].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229150 
+Castalia|	module:SN.node[19].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2111 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2111 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[19].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0231608 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.237 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[19].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[19].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152850 
+Castalia|	module:SN.node[20].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[20].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.000995874 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22996 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[21].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[21].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00484567 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.2298 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[22].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[22].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0152278 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22936 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[23].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[23].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0151057 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22936 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[24].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20852 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20852 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[24].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0216381 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23441 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[24].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[24].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229135 
+Castalia|	module:SN.node[25].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.21117 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.21117 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[25].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0071859 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23768 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[25].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[25].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152874 
+Castalia|	module:SN.node[26].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[26].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00928291 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22961 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[27].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[27].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0117968 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.2295 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[28].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[28].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0225418 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22905 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[29].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.2018 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.2018 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[29].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0164212 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.22931 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[30].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.20852 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.20852 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[30].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0196954 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23449 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[30].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			22 TX pkts
+Castalia|	module:SN.node[30].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			229139 
+Castalia|	module:SN.node[31].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.21095 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.21095 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[31].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0304434 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23669 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67622 
+Castalia|	module:SN.node[31].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[31].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152839 
+Castalia|	module:SN.node[32].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.21132 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.21132 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[32].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.000799396 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23795 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67618 
+Castalia|	module:SN.node[32].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[32].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152884 
+Castalia|	module:SN.node[33].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.21129 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.21129 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[33].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0255275 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.2369 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67618 
+Castalia|	module:SN.node[33].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[33].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152846 
+Castalia|	module:SN.node[34].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.21127 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.21127 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[34].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0186285 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23719 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67618 
+Castalia|	module:SN.node[34].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[34].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152857 
+Castalia|	module:SN.node[35].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.21136 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.21136 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[35].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.0324549 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23661 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67618 
+Castalia|	module:SN.node[35].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			33 TX pkts
+Castalia|	module:SN.node[35].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			152836 
+Castalia|	module:SN.node[36].ResourceManager.EnergySubsystem.EnergyStorage.Batteries[0]
+Castalia|		simple output name:Device Energy
+Castalia|			0 Charged
+Castalia|			4.23263 Drawn
+Castalia|			18733.8 Final
+Castalia|			18738 Initial
+Castalia|			18738 Maximum
+Castalia|			0 Minimum
+Castalia|			4.23263 Provided
+Castalia|			0 Wasted
+Castalia|	module:SN.node[36].ResourceManager.EnergySubsystem.EnergyManager
+Castalia|		simple output name:Disabled time %
+Castalia|			0.00864175 
+Castalia|		simple output name:Energy breakdown
+Castalia|			0 Harvested
+Castalia|			18738 Initial
+Castalia|			0 Leaked
+Castalia|			18738 Maximum
+Castalia|			1 Node switched on
+Castalia|			18733.8 Remaining
+Castalia|			4.23617 Supplied
+Castalia|			0 Wasted
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			7.67618 
+Castalia|	module:SN.node[36].Communication.Radio
+Castalia|		simple output name:TXed pkts
+Castalia|			27 TX pkts
+Castalia|	module:SN.node[36].Application
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			186780 

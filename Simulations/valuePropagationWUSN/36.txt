@@ -1,0 +1,1169 @@
+Castalia| what:General (1)
+Castalia| when:2022-05-03 14:58
+Castalia| repeat:0 label:None
+Castalia|		module:SN.Simulation
+Castalia|			simple output name:Execution time, seconds
+Castalia|				44.412
+Castalia|			simple output name:Execution ratio (simtime/realtime)
+Castalia|				2.2516436999
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.79813 
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			5.10762 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.2 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			29532 Failed with interference
+Castalia|			842 Received despite interference
+Castalia|		simple output name:contador
+Castalia|			842 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			0 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.12164e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.60901e+06 sumPowerReceived
+Castalia|	module:SN.node[0].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|		 index:1 simple output name:Packets loss rate
+Castalia|			0.978098 total
+Castalia|		 index:2 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:3 simple output name:Packets loss rate
+Castalia|			0.97949 total
+Castalia|		 index:4 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:5 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:6 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:7 simple output name:Packets loss rate
+Castalia|			0.978694 total
+Castalia|		 index:8 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:9 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:10 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:11 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:12 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:13 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:14 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:15 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:16 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:17 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:18 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:19 simple output name:Packets loss rate
+Castalia|			0.979494 total
+Castalia|		 index:20 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:21 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:22 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:23 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:24 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:25 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:26 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:27 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:28 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:29 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:30 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:31 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:32 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:33 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:34 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:35 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:36 simple output name:Packets loss rate
+Castalia|			1 total
+Castalia|		 index:1 simple output name:Packets received per node
+Castalia|			219 
+Castalia|		 index:3 simple output name:Packets received per node
+Castalia|			205 
+Castalia|		 index:7 simple output name:Packets received per node
+Castalia|			213 
+Castalia|		 index:19 simple output name:Packets received per node
+Castalia|			205 
+Castalia|		 index:1 simple output name:Packets reception rate
+Castalia|			0.0219022 total
+Castalia|		 index:2 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:3 simple output name:Packets reception rate
+Castalia|			0.0205103 total
+Castalia|		 index:4 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:5 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:6 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:7 simple output name:Packets reception rate
+Castalia|			0.0213064 total
+Castalia|		 index:8 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:9 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:10 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:11 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:12 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:13 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:14 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:15 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:16 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:17 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:18 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:19 simple output name:Packets reception rate
+Castalia|			0.0205062 total
+Castalia|		 index:20 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:21 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:22 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:23 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:24 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:25 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:26 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:27 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:28 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:29 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:30 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:31 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:32 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:33 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:34 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:35 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		 index:36 simple output name:Packets reception rate
+Castalia|			0 total
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:200
+Castalia|		histogram_values 0 13 0 0 0 0 0 0 829 0 0
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34182 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			18990 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9498 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.25334e+06 sumPowerReceived
+Castalia|	module:SN.node[1].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			66795 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			11868.1 
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.3398 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		 index:485 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28483 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9495 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.87988e+06 sumPowerReceived
+Castalia|	module:SN.node[2].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.33938 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28485 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9494 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.88001e+06 sumPowerReceived
+Castalia|	module:SN.node[3].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			62525 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			12673.7 
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34112 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28485 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.88001e+06 sumPowerReceived
+Castalia|	module:SN.node[4].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34166 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28491 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			63 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22498e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.85192e+06 sumPowerReceived
+Castalia|	module:SN.node[5].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[6].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34043 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[6].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			18992 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9496 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22498e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.22498e+06 sumPowerReceived
+Castalia|	module:SN.node[6].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[7].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34024 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[7].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28486 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9495 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.88008e+06 sumPowerReceived
+Castalia|	module:SN.node[7].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			64965 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			12199.3 
+Castalia|	module:SN.node[8].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.33921 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[8].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37977 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9494 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50648e+06 sumPowerReceived
+Castalia|	module:SN.node[8].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[9].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34066 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[9].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37979 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9496 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50661e+06 sumPowerReceived
+Castalia|	module:SN.node[9].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[10].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.3392 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[10].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37977 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9494 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50648e+06 sumPowerReceived
+Castalia|	module:SN.node[10].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[11].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34199 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[11].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37986 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9498 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22518e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.47858e+06 sumPowerReceived
+Castalia|	module:SN.node[11].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[12].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34165 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[12].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28490 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22498e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.85185e+06 sumPowerReceived
+Castalia|	module:SN.node[12].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[13].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34192 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[13].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28487 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9498 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.88014e+06 sumPowerReceived
+Castalia|	module:SN.node[13].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[14].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34139 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[14].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37987 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50714e+06 sumPowerReceived
+Castalia|	module:SN.node[14].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[15].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34126 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[15].Communication.Radio
+Castalia|		 index:485 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37988 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50721e+06 sumPowerReceived
+Castalia|	module:SN.node[15].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[16].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34188 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[16].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37985 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9498 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50701e+06 sumPowerReceived
+Castalia|	module:SN.node[16].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[17].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34175 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[17].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37988 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9498 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22505e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.47872e+06 sumPowerReceived
+Castalia|	module:SN.node[17].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[18].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34065 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[18].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28488 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9496 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			63 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22505e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.85172e+06 sumPowerReceived
+Castalia|	module:SN.node[18].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[19].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.33984 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[19].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28485 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9495 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.88001e+06 sumPowerReceived
+Castalia|	module:SN.node[19].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			62525 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|		simple output name:Energy nJ/bit
+Castalia|			12674.6 
+Castalia|	module:SN.node[20].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34195 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[20].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37986 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9498 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50708e+06 sumPowerReceived
+Castalia|	module:SN.node[20].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[21].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34159 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[21].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37987 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50714e+06 sumPowerReceived
+Castalia|	module:SN.node[21].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[22].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.3406 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[22].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37984 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9496 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			66 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.50694e+06 sumPowerReceived
+Castalia|	module:SN.node[22].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[23].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34061 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[23].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37984 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9496 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22492e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.47846e+06 sumPowerReceived
+Castalia|	module:SN.node[23].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[24].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.33999 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[24].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28486 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9495 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			63 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22492e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.85159e+06 sumPowerReceived
+Castalia|	module:SN.node[24].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[25].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34136 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[25].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28486 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			63 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22473e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.85159e+06 sumPowerReceived
+Castalia|	module:SN.node[25].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[26].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34116 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[26].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37987 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22518e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.47865e+06 sumPowerReceived
+Castalia|	module:SN.node[26].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[27].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34092 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[27].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37982 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9496 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22479e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.47833e+06 sumPowerReceived
+Castalia|	module:SN.node[27].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[28].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.3399 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[28].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37981 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9495 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22492e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.47826e+06 sumPowerReceived
+Castalia|	module:SN.node[28].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[29].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34048 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[29].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			37979 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9496 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22492e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			2.44965e+06 sumPowerReceived
+Castalia|	module:SN.node[29].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[30].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34017 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[30].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28487 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9495 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			63 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22492e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.82317e+06 sumPowerReceived
+Castalia|	module:SN.node[30].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[31].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.33915 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[31].Communication.Radio
+Castalia|		 index:487 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			18988 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9494 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22473e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.22473e+06 sumPowerReceived
+Castalia|	module:SN.node[31].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[32].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34197 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[32].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28485 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9498 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22486e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.85152e+06 sumPowerReceived
+Castalia|	module:SN.node[32].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[33].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.33962 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[33].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28483 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9494 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			66 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22479e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.8514e+06 sumPowerReceived
+Castalia|	module:SN.node[33].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[34].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34027 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[34].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28482 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9495 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			63 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22479e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.85133e+06 sumPowerReceived
+Castalia|	module:SN.node[34].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[35].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.33896 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[35].Communication.Radio
+Castalia|		 index:486 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			28481 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9493 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			63 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			1.22466e+06 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.82278e+06 sumPowerReceived
+Castalia|	module:SN.node[35].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
+Castalia|	module:SN.node[36].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			6.34122 
+Castalia|		simple output name:Remaining Energy
+Castalia|			29993.7 
+Castalia|	module:SN.node[36].Communication.Radio
+Castalia|		 index:485 simple output name:Buffer overflow
+Castalia|			1 
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			18988 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			9497 TX pkts
+Castalia|		simple output name:contador
+Castalia|			0 contador
+Castalia|		simple output name:diferPowerReceived
+Castalia|			63 diferPowerReceived
+Castalia|		simple output name:power
+Castalia|			63 Received power
+Castalia|		simple output name:sen
+Castalia|			-95 sen
+Castalia|		simple output name:sumPowerReceived
+Castalia|			1.19624e+06 sumPowerReceived
+Castalia|	module:SN.node[36].Application
+Castalia|		simple output name:Bytes delivered
+Castalia|			0 total
+Castalia|		simple output name:Bytes received
+Castalia|			0 total
