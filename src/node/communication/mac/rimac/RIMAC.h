@@ -33,7 +33,8 @@ enum RIMACEvent{
 	DATA_RECEIVED = 8, // Data was received
 
 	//Personalizado por Luan
-	PUSH_QUEUE = 9
+	PUSH_QUEUE = 9,
+	ACK_RECEIVED = 10
 };
 
 enum RIMACType {
@@ -97,6 +98,9 @@ class RIMAC: public VirtualMac
     int maxAttempts;
     double ctrlFrameLength;
 
+    int packetsSent;
+    int acksReceived;
+
     bool isChannelClearBool;
 
     cMessage* wakeup;
@@ -113,9 +117,9 @@ class RIMAC: public VirtualMac
     void initialize();
 
     //Delete all dynamically allocated objects of the module
-    void finish();
+    void finishSpecific();
 
-    void sendBeacon(bool);
+    void sendBeacon(int, int);
     bool isChannelClear();
     void setState(RIMACState newState, int event);
 
