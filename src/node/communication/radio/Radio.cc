@@ -846,6 +846,10 @@ void Radio::updateInterference(list<ReceivedSignal_type>::iterator remainingSign
 	}
 }
 
+bool Radio::empty(){
+    return radioBuffer.empty();
+}
+
 /* Calculate RSSI based on the history of totalReceivedPower
  */
 double Radio::readRSSI()
@@ -980,6 +984,9 @@ CCA_result Radio::isChannelClear()
 	double value = readRSSI();
 	if (value < CS_NOT_VALID)
 		return (value < CCAthreshold) ? CLEAR : BUSY;
+	//if (value < CS_NOT_VALID){
+	//    return (value <= CCAthreshold) ? CLEAR : BUSY;
+	//}
 
 	/* Otherwise an error has occured and we are returning the error code.
 	 * CS_NOT_VALID means that the radio is not in RX, so we have to change

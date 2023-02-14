@@ -32,7 +32,6 @@ enum RIMACEvent{
 	BEACON_RECEIVED = 7, // Beacon was received
 	DATA_RECEIVED = 8, // Data was received
 
-	//Personalizado por Luan
 	PUSH_QUEUE = 9,
 	ACK_RECEIVED = 10
 };
@@ -136,12 +135,11 @@ class RIMAC: public VirtualMac
 
 		virtual void startup();
 
-		//Personalisado por Luan
 		void sendToRadioLayer(MacPacket *);
 		bool hasPacketToSent(MacPacket *);
 };
 
-class RIMacHeaderBase{// extends FieldsChunk{
+class RIMacHeaderBase{
 	int srcAddr;
 	int destAddr;
 	RIMACType type;

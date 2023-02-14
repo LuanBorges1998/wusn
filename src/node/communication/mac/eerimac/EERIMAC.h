@@ -121,7 +121,7 @@ class EERIMAC: public VirtualMac
     //Delete all dynamically allocated objects of the module
     void finish();
 
-    void sendBeacon(bool);
+    void sendBeacon(int, int);
     bool isChannelClear();
     void setState(EERIMACState newState, int event);
 

@@ -240,6 +240,7 @@ class Radio: public CastaliaModule {
  public:
 	double readRSSI();
 	CCA_result isChannelClear();
+	bool empty();
 };
 
 #endif				//_RADIOMODULE_H_

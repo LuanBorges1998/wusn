@@ -50,7 +50,6 @@ void SWPTMAC::initialize(){
 }
 
 void SWPTMAC::startup(){
-    //setTimer(WAKEUP, sleepInterval);
     setTimer(WAKEUP, sleepInterval * (0.5 + dblrand()));
 }
 
@@ -81,7 +80,7 @@ void SWPTMAC::timerFiredCallback(int event){
                     setTimer(CCA_TIMEOUT, ccaInterval * (1 + dblrand()));
                     return;
                 }
-                sendBeacon(false);
+                sendBeacon(0, -1);
             }
             break;
         case DATA_CCA:
@@ -99,6 +98,7 @@ void SWPTMAC::timerFiredCallback(int event){
                     setTimer(CCA_TIMEOUT, ccaInterval * (1 + dblrand()));
                     return;
                 }
+                attempts = 0;
                 setState(WAIT_DATA_OVER, event);
                 cancelTimer(CCA_TIMEOUT);
                 setTimer(CCA_TIMEOUT, 0);
@@ -107,19 +107,53 @@ void SWPTMAC::timerFiredCallback(int event){
         //Radio transmitting
         case WAIT_BEACON_OVER:
             if(event == TRANSMISSION_ENDED){
+                //Inicio calculo tempo de transmissao
+                cPacket *pkt = new cPacket();
+                MacPacket *macFrame;
+                macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
+                encapsulatePacket(macFrame, pkt);
+                macFrame->setSource(SELF_MAC_ADDRESS);
+                macFrame->setDestination(BROADCAST_MAC_ADDRESS);
+                simtime_t txTime = TX_TIME(pkt->getByteLength());
+                //Fim calculo tempo de transmissao
+
                 setState(WAIT_DATA, event);
-                setTimer(BEACON_TIMEOUT, 1);
+                setTimer(BEACON_TIMEOUT, dwellInterval);
             }
             break;
         case WAIT_DATA_OVER:
-            if(event == CCA_TIMEOUT){
-                if (!txQueue.empty()) {
-                    MacPacket *macFrame = txQueue.front();
-                    txQueue.pop();
-                    sendToRadioLayer(macFrame);
-                    setState(WAIT_ACK, event);
-                    setTimer(DWELL_TIMEOUT, dwellInterval);
+            if(event == TRANSMISSION_ENDED){
+                setState(WAIT_ACK, event);
+                setTimer(DWELL_TIMEOUT, dwellInterval);
+            }else if(radioModule->empty()){
+                if(event == CCA_TIMEOUT){
+                    if (!txQueue.empty()) {
+                        MacPacket *macFrame = txQueue.front();
+                        sendToRadioLayer(macFrame->dup());
+                        //packetsSent++;
+                        simtime_t txTime = TX_TIME(macFrame->getByteLength());
+                        setTimer(TRANSMISSION_ENDED, txTime);
+                    }
+                }else if(event == DWELL_TIMEOUT){
+                    attempts = attempts + 1;
+                    if(attempts == maxAttempts){
+                        attempts = 0;
+                        cancelTimer(CCA_TIMEOUT);
+                        cancelTimer(WAKEUP);
+                        setTimer(WAKEUP, sleepInterval * (0.5 + dblrand()));
+                        break;
+                    }else{
+                        if (!txQueue.empty()) {
+                            MacPacket *macFrame = txQueue.front();
+                            sendToRadioLayer(macFrame->dup());//cria um novo pacote para enviar
+                            setState(WAIT_ACK, event);
+                            setTimer(DWELL_TIMEOUT, dwellInterval);
+                        }
+                    }
                 }
+            }else{
+                setState(WAIT_ACK, event);
+                setTimer(DWELL_TIMEOUT, dwellInterval);
             }
             break;
         case WAIT_ACK_OVER:
@@ -128,7 +162,6 @@ void SWPTMAC::timerFiredCallback(int event){
                 setTimer(DWELL_TIMEOUT, dwellInterval);
                 return;
             }*/
-
             if(event == TRANSMISSION_ENDED){
                 setState(WAIT_DATA, 0);
 
@@ -143,7 +176,8 @@ void SWPTMAC::timerFiredCallback(int event){
                 //Fim calculo tempo de transmissao
 
                 cancelTimer(DWELL_TIMEOUT);
-                setTimer(DWELL_TIMEOUT, txTime + dwellInterval);
+                //setTimer(DWELL_TIMEOUT, txTime + dwellInterval);
+                setTimer(DWELL_TIMEOUT, 1);
             }
 
             //Solicitando energia do drone - STATE == TESTE_ENERGY_LEVEL
@@ -193,7 +227,7 @@ void SWPTMAC::timerFiredCallback(int event){
             }
             break;
         case WAIT_ACK:
-            if(event == BEACON_RECEIVED){ //BEACON==ACK
+            if(event == ACK_RECEIVED){
                 //Solicitando energia do drone - STATE == TESTE_ENERGY_LEVEL
                 if(energyArrived){
                     setState(RECEIVING_ENERGY, event);
@@ -356,22 +390,41 @@ void SWPTMAC::setState(SWPTMACState newState, int event){
     macState = newState;
 }
 
-void SWPTMAC::sendBeacon(bool withBW){
+void SWPTMAC::sendBeacon(int type, int dest){
     cPacket *pkt = new cPacket();
     MacPacket *macFrame;
-    if(withBW){
+    if(type == 0){
+        macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
+        encapsulatePacket(macFrame, pkt);
+        macFrame->setSource(SELF_MAC_ADDRESS);
+        macFrame->setDestination(BROADCAST_MAC_ADDRESS);
+        sendToRadioLayer(macFrame->dup());
+        setState(WAIT_BEACON_OVER, 0);
+        cancelTimer(TRANSMISSION_ENDED);
+        simtime_t txTime = TX_TIME(pkt->getByteLength());
+        setTimer(TRANSMISSION_ENDED, txTime);
+    }else if(type == 1){
         backoffTimes = backoffTimes + 1;
         macFrame = new MacPacket("BEACON-BW", MAC_LAYER_PACKET);
-    }else{
+        encapsulatePacket(macFrame, pkt);
+        macFrame->setSource(SELF_MAC_ADDRESS);
+        macFrame->setDestination(BROADCAST_MAC_ADDRESS);
+        sendToRadioLayer(macFrame->dup());
+        setState(WAIT_BEACON_OVER, 0);
+        cancelTimer(TRANSMISSION_ENDED);
+        simtime_t txTime = TX_TIME(pkt->getByteLength());
+        setTimer(TRANSMISSION_ENDED, txTime);
+    }else if(type == 2){
         macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
+        encapsulatePacket(macFrame, pkt);
+        macFrame->setSource(SELF_MAC_ADDRESS);
+        macFrame->setDestination(dest);
+        sendToRadioLayer(macFrame->dup());
+        setState(WAIT_ACK_OVER, 0);
+        cancelTimer(TRANSMISSION_ENDED);
+        simtime_t txTime = TX_TIME(pkt->getByteLength());
+        setTimer(TRANSMISSION_ENDED, txTime);
     }
-    encapsulatePacket(macFrame, pkt);
-    macFrame->setSource(SELF_MAC_ADDRESS);
-    macFrame->setDestination(BROADCAST_MAC_ADDRESS); //Broadcast????
-    toRadioLayer(macFrame);
-    setState(WAIT_BEACON_OVER, 0);
-    simtime_t txTime = TX_TIME(pkt->getByteLength());
-    setTimer(TRANSMISSION_ENDED, txTime);
 }
 
 bool SWPTMAC::isChannelClear(){
@@ -380,7 +433,7 @@ bool SWPTMAC::isChannelClear(){
     if (CCAcode == CLEAR) {
         return true;
     }else {
-        return true;
+        return false;
     }
 }
 
@@ -390,21 +443,19 @@ bool SWPTMAC::isChannelClear(){
  */
 void SWPTMAC::fromNetworkLayer(cPacket * pkt, int destination)
 {
-    if(destination == SELF_MAC_ADDRESS)
-        return;
     MacPacket *macFrame = new MacPacket("Routing packet", MAC_LAYER_PACKET);
     encapsulatePacket(macFrame, pkt);
     macFrame->setSource(SELF_MAC_ADDRESS);
     macFrame->setDestination(destination);
     txQueue.push(macFrame);
     //setState(WAIT_BEACON, 0);
-    //if(macState == SLEEP1){
+    if(macState == SLEEP1){
         //O que caracteriza o MRIP
         cancelTimer(WAIT_BEACON_TIMEOUT);
         setTimer(WAIT_BEACON_TIMEOUT, sleepInterval * 1.5);
         //////////////////////////
         setState(WAIT_BEACON, 0);
-    //}
+    }
 }
 
 void SWPTMAC::sendToRadioLayer(MacPacket *macFrame){
@@ -424,18 +475,22 @@ void SWPTMAC::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
     MacPacket *macPkt = dynamic_cast <MacPacket*>(pkt);
     string macName = macPkt->getName();
     if(macName=="INTERFERENCE"){
-        if(backoffTimes == backoffMaxAttempts){
-            setState(SLEEP1, 0);
-            backoffTimes = 0;
-            return;
+        if(macState == WAIT_DATA){
+            if(backoffTimes == backoffMaxAttempts){
+                setState(SLEEP1, 0);
+                backoffTimes = 0;
+                return;
+            }
+            sendBeacon(1, -1);
         }
-        sendBeacon(true);
         return;
     }
     if(macPkt == NULL)
         return;
-    //Personalizado por Luan
-    if(macName=="BEACON"){
+    if(macName=="BEACON" && macPkt->getDestination() == SELF_MAC_ADDRESS){
+        cancelTimer(ACK_RECEIVED);
+        setTimer(ACK_RECEIVED, 0);
+    }else if(macName=="BEACON"){
         if(hasPacketToSent(macPkt)){
             cancelTimer(BEACON_RECEIVED);
             setTimer(BEACON_RECEIVED, 0);
@@ -455,8 +510,7 @@ void SWPTMAC::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
     {
         cancelTimer(BEACON_TIMEOUT);
         toNetworkLayer(decapsulatePacket(macPkt));
-        sendBeacon(false);
-        //???
+        sendBeacon(2, macPkt->getSource());
         setState(WAIT_ACK_OVER, 0);
         cancelTimer(TRANSMISSION_ENDED);
         simtime_t txTime = TX_TIME(pkt->getByteLength());

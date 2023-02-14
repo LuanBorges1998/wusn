@@ -26,6 +26,7 @@ void ThroughputTest::startup()
 	//string spacing = par("packet_spacing").stringValue();
 	//packet_spacing = stod(spacing.c_str());
 	packet_spacing = par("packet_spacing");
+	packet_spacing = packet_rate != 0 ? 1 / float (packet_rate) : packet_spacing;
 	dataSN = 0;
 	
 	numNodes = getParentModule()->getParentModule()->par("numNodes");
