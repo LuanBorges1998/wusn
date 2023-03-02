@@ -44,7 +44,9 @@ void CircleMobilityManager::initialize()
 	updateInterval = par("updateInterval");
 	updateInterval = updateInterval / 1000;
 
-	loc1_x = nodeLocation.x;
+	movements = 0;
+
+	/*loc1_x = nodeLocation.x;
 	loc1_y = nodeLocation.y;
 	loc1_z = nodeLocation.z;
 	loc2_x = par("xCoorDestination");
@@ -59,10 +61,15 @@ void CircleMobilityManager::initialize()
 		incr_x = (loc2_x - loc1_x) / tmp;
 		incr_y = (loc2_y - loc1_y) / tmp;
 		incr_z = (loc2_z - loc1_z) / tmp;
-		setLocation(loc1_x, loc1_y, loc1_z);
+		setLocation(loc1_x, loc1_y, loc1_z);*/
 		scheduleAt(simTime() + updateInterval,
 			new MobilityManagerMessage("Periodic location update message", MOBILITY_PERIODIC));
-	}
+	//}
+
+	menorCX = 0;
+	maiorCX = 0;
+	menorCY = 0;
+	maiorCY = 0;
 }
 
 void CircleMobilityManager::setInitialPosition()
@@ -70,19 +77,48 @@ void CircleMobilityManager::setInitialPosition()
     move();
 }
 
+/*void CircleMobilityManager::move()
+{
+    circ = 2 * 3,14159 * r;
+    distSeg = circ / speed;
+    angle = startAngle + distSeg * simTime().dbl();
+    movements = movements + 1;
+}*/
+
 void CircleMobilityManager::move()
 {
-    angle = startAngle + omega * simTime().dbl();
+    double circ = 2 * 3.14159 * r;
+    double timeCirc = circ / speed;
+    double tempAngle = 360 * simTime().dbl() / timeCirc;
+    angle = startAngle + tempAngle;
+    //angle = startAngle + omega * simTime().dbl();
+    //angle = startAngle + speed * simTime().dbl();
     //lastPosition.x = cx + r * cos(angle);
+    nodeLocation.x = cx + r * cos(angle);
     //lastPosition.y = cy + r * sin(angle);
+    nodeLocation.y = cy + r * sin(angle);
     //lastPosition.z = cz;
+    nodeLocation.z = cz;
     //lastSpeed.x = -sin(angle) * speed;
     //lastSpeed.y = cos(angle) * speed;
     //lastSpeed.z = 0;
     // do something if we reach the wall
     //Coord dummyCoord;
-    double dummyAngle;
+    //double dummyAngle;
     //handleIfOutside(REFLECT, dummyCoord, dummyCoord, dummyAngle);
+    movements = movements + 1;
+    if(menorCX == 0 || menorCX > nodeLocation.x){
+        menorCX = nodeLocation.x;
+    }
+    if(nodeLocation.x > maiorCX){
+        maiorCX = nodeLocation.x;
+    }
+    if(menorCY == 0 || menorCY > nodeLocation.y){
+        menorCY = nodeLocation.y;
+    }
+    if(nodeLocation.y > maiorCY){
+        maiorCY = nodeLocation.y;
+    }
 }
 
 void CircleMobilityManager::handleMessage(cMessage * msg)
@@ -91,7 +127,10 @@ void CircleMobilityManager::handleMessage(cMessage * msg)
 	switch (msgKind) {
 
 		case MOBILITY_PERIODIC:{
-			if (direction) {
+		    scheduleAt(simTime() + updateInterval,
+		                    new MobilityManagerMessage("Periodic location update message", MOBILITY_PERIODIC));
+		    move();
+			/*if (direction) {
 				nodeLocation.x += incr_x;
 				nodeLocation.y += incr_y;
 				nodeLocation.z += incr_z;
@@ -121,14 +160,14 @@ void CircleMobilityManager::handleMessage(cMessage * msg)
 					nodeLocation.y -= (nodeLocation.y - loc1_y) * 2;
 					nodeLocation.z -= (nodeLocation.z - loc1_z) * 2;
 				}
-			}
+			}*/
 			notifyWirelessChannel();
-			scheduleAt(simTime() + updateInterval,
+			/*scheduleAt(simTime() + updateInterval,
 				new MobilityManagerMessage("Periodic location update message", MOBILITY_PERIODIC));
 
 			trace() << "changed location(x:y:z) to " << nodeLocation.x << 
 					":" << nodeLocation.y << ":" << nodeLocation.z;
-			break;
+			break;*/
 		}
 
 		default:{
@@ -140,3 +179,16 @@ void CircleMobilityManager::handleMessage(cMessage * msg)
 	msg = NULL;
 }
 
+void CircleMobilityManager::finishSpecific(){
+    declareOutput("maiorCX");
+    collectOutput("maiorCX", "", maiorCX);
+
+    declareOutput("menorCX");
+    collectOutput("menorCX", "", menorCX);
+
+    declareOutput("maiorCY");
+    collectOutput("maiorCY", "", maiorCY);
+
+    declareOutput("menorCY");
+    collectOutput("menorCY", "", menorCY);
+}

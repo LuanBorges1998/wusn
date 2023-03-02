@@ -29,5 +29,5 @@ simple CircleMobilityManager like node.mobilityManager.iMobilityManager {
     double r; //@unit(m); // radius of the circle
     //double speed @unit(mps) = default(0mps); // speed of the host
     double startAngle = default(uniform(0deg, 360deg)); //@unit(deg) = default(uniform(0deg, 360deg)); // starting angle
-    @class(CircleMobility);
+    //@class(CircleMobility);
 }

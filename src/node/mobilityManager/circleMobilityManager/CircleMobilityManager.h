@@ -37,6 +37,12 @@ class CircleMobilityManager: public VirtualMobilityManager {
         double distance;
         int direction;
 
+        int movements;
+        double menorCX;
+        double maiorCX;
+        double menorCY;
+        double maiorCY;
+
      //Circle Inet
      protected:
          double cx;
@@ -54,6 +60,7 @@ class CircleMobilityManager: public VirtualMobilityManager {
      protected:
         void initialize();
         void handleMessage(cMessage * msg);
+        void finishSpecific();
 
         //Circle Inet
         //int numInitStages() const { return NUM_INIT_STAGES; }
