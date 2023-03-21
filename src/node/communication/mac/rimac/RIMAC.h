@@ -111,6 +111,7 @@ class RIMAC: public VirtualMac
     double bitrate;
 
 	queue< MacPacket* > txQueue;
+	queue< MacPacket* > beaconQueue;
 
     //Initialization of the module and some variables
     void initialize();

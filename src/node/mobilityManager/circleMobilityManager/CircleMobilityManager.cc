@@ -166,17 +166,17 @@ void CircleMobilityManager::handleMessage(cMessage * msg)
 				new MobilityManagerMessage("Periodic location update message", MOBILITY_PERIODIC));
 
 			trace() << "changed location(x:y:z) to " << nodeLocation.x << 
-					":" << nodeLocation.y << ":" << nodeLocation.z;
-			break;*/
+					":" << nodeLocation.y << ":" << nodeLocation.z;*/
+			break;
 		}
 
 		default:{
 			trace() << "WARNING: Unexpected message " << msgKind;
 		}
 	}
-
-	delete msg;
-	msg = NULL;
+	cancelAndDelete(msg);
+	//delete msg;
+	//msg = NULL;
 }
 
 void CircleMobilityManager::finishSpecific(){
