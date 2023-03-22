@@ -123,13 +123,17 @@ class SWPTMAC: public VirtualMac
 
     double bitrate;
 
-	queue< MacPacket* > txQueue;
+    queue< MacPacket* > txQueue;
+    queue< MacPacket* > beaconQueue;
 
     //Initialization of the module and some variables
     void initialize();
 
     //Delete all dynamically allocated objects of the module
-    void finish();
+    //void finish();
+
+    //Delete all dynamically allocated objects of the module
+    void finishSpecific();
 
     void sendBeacon(int, int);
     bool isChannelClear();

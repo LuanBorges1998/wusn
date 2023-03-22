@@ -99,13 +99,13 @@ void EERIMAC::timerFiredCallback(int event){
         case WAIT_BEACON_OVER:
             if(event == TRANSMISSION_ENDED){
                 //Inicio calculo tempo de transmissao
-                cPacket *pkt = new cPacket();
-                MacPacket *macFrame;
-                macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
-                encapsulatePacket(macFrame, pkt);
-                macFrame->setSource(SELF_MAC_ADDRESS);
-                macFrame->setDestination(BROADCAST_MAC_ADDRESS);
-                simtime_t txTime = TX_TIME(pkt->getByteLength());
+                //cPacket *pkt = new cPacket();
+                //MacPacket *macFrame;
+                //macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
+                //encapsulatePacket(macFrame, pkt);
+                //macFrame->setSource(SELF_MAC_ADDRESS);
+                //macFrame->setDestination(BROADCAST_MAC_ADDRESS);
+                //simtime_t txTime = TX_TIME(pkt->getByteLength());
                 //Fim calculo tempo de transmissao
 
                 setState(WAIT_DATA, event);
@@ -166,13 +166,13 @@ void EERIMAC::timerFiredCallback(int event){
                 setState(WAIT_DATA, 0);
 
                 //Inicio calculo tempo de transmissao
-                cPacket *pkt = new cPacket();
-                MacPacket *macFrame;
-                macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
-                encapsulatePacket(macFrame, pkt);
-                macFrame->setSource(SELF_MAC_ADDRESS);
-                macFrame->setDestination(BROADCAST_MAC_ADDRESS);
-                simtime_t txTime = TX_TIME(pkt->getByteLength());
+                //cPacket *pkt = new cPacket();
+                //MacPacket *macFrame;
+                //macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
+                //encapsulatePacket(macFrame, pkt);
+                //macFrame->setSource(SELF_MAC_ADDRESS);
+                //macFrame->setDestination(BROADCAST_MAC_ADDRESS);
+                //simtime_t txTime = TX_TIME(pkt->getByteLength());
                 //Fim calculo tempo de transmissao
 
                 cancelTimer(DWELL_TIMEOUT);
@@ -212,6 +212,7 @@ void EERIMAC::timerFiredCallback(int event){
             break;
         case WAIT_ACK:
             if(event == ACK_RECEIVED){
+                cancelAndDelete(txQueue.front());
                 txQueue.pop();
                 //acksReceived++;
                 if (!txQueue.empty()) {
@@ -274,40 +275,44 @@ void EERIMAC::setState(EERIMACState newState, int event){
 }
 
 void EERIMAC::sendBeacon(int type, int dest){
-    cPacket *pkt = new cPacket();
+    //cPacket *pkt = new cPacket();
     MacPacket *macFrame;
     if(type == 0){
         macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
-        encapsulatePacket(macFrame, pkt);
+        //encapsulatePacket(macFrame, pkt);
         macFrame->setSource(SELF_MAC_ADDRESS);
         macFrame->setDestination(BROADCAST_MAC_ADDRESS);
         sendToRadioLayer(macFrame->dup());
         setState(WAIT_BEACON_OVER, 0);
         cancelTimer(TRANSMISSION_ENDED);
-        simtime_t txTime = TX_TIME(pkt->getByteLength());
+        //simtime_t txTime = TX_TIME(pkt->getByteLength());
+        simtime_t txTime = TX_TIME(macFrame->getByteLength());
         setTimer(TRANSMISSION_ENDED, txTime);
     }else if(type == 1){
         backoffTimes = backoffTimes + 1;
         macFrame = new MacPacket("BEACON-BW", MAC_LAYER_PACKET);
-        encapsulatePacket(macFrame, pkt);
+        //encapsulatePacket(macFrame, pkt);
         macFrame->setSource(SELF_MAC_ADDRESS);
         macFrame->setDestination(BROADCAST_MAC_ADDRESS);
         sendToRadioLayer(macFrame->dup());
         setState(WAIT_BEACON_OVER, 0);
         cancelTimer(TRANSMISSION_ENDED);
-        simtime_t txTime = TX_TIME(pkt->getByteLength());
+        //simtime_t txTime = TX_TIME(pkt->getByteLength());
+        simtime_t txTime = TX_TIME(macFrame->getByteLength());
         setTimer(TRANSMISSION_ENDED, txTime);
     }else if(type == 2){
         macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
-        encapsulatePacket(macFrame, pkt);
+        //encapsulatePacket(macFrame, pkt);
         macFrame->setSource(SELF_MAC_ADDRESS);
         macFrame->setDestination(dest);
         sendToRadioLayer(macFrame->dup());
         setState(WAIT_ACK_OVER, 0);
         cancelTimer(TRANSMISSION_ENDED);
-        simtime_t txTime = TX_TIME(pkt->getByteLength());
+        //simtime_t txTime = TX_TIME(pkt->getByteLength());
+        simtime_t txTime = TX_TIME(macFrame->getByteLength());
         setTimer(TRANSMISSION_ENDED, txTime);
     }
+    beaconQueue.push(macFrame);
 }
 
 bool EERIMAC::isChannelClear(){
@@ -450,8 +455,24 @@ bool EERIMAC::hasPacketToSent(MacPacket * macFrame){
     }
 }
 
-void EERIMAC::finish(){
+void EERIMAC::finishSpecific(){
+    while (!txQueue.empty()) {
+        cancelAndDelete(txQueue.front());
+        txQueue.pop();
+    }
 
+    while (!beaconQueue.empty()) {
+        cancelAndDelete(beaconQueue.front());
+        beaconQueue.pop();
+    }
+
+    cancelAndDelete(wakeup);
+    cancelAndDelete(ccaTimeout);
+    cancelAndDelete(dwellTimeout);
+    cancelAndDelete(ackTimeout);
+    cancelAndDelete(beaconTimeout);
+    cancelAndDelete(beaconReceived);
+    cancelAndDelete(pushedQueue);
 }
 
 void EERIMAC::receiveEnergy(cMessage * msg)
