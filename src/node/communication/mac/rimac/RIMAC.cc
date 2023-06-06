@@ -101,18 +101,6 @@ void RIMAC::timerFiredCallback(int event){
         //Radio transmitting
         case WAIT_BEACON_OVER:
             if(event == TRANSMISSION_ENDED){
-                //Inicio calculo tempo de transmissao
-                //cPacket *pkt = new cPacket();
-                //MacPacket *macFrame;
-                //beaconQueue.push(macFrame);
-                //macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
-                //encapsulatePacket(macFrame, pkt);
-                //macFrame->setSource(SELF_MAC_ADDRESS);
-                //macFrame->setDestination(BROADCAST_MAC_ADDRESS);
-                //simtime_t txTime = TX_TIME(pkt->getByteLength());
-                //simtime_t txTime = TX_TIME(macFrame->getByteLength());
-                //Fim calculo tempo de transmissao
-
                 setState(WAIT_DATA, event);
                 setTimer(BEACON_TIMEOUT, dwellInterval);
             }
@@ -126,8 +114,6 @@ void RIMAC::timerFiredCallback(int event){
                     if (!txQueue.empty()) {
                         MacPacket *macFrame = txQueue.front();
                         sendToRadioLayer(macFrame->dup());
-                        //sendToRadioLayer(macFrame);
-                        //cancelAndDelete(macFrame);
                         packetsSent++;
                         simtime_t txTime = TX_TIME(macFrame->getByteLength());
                         setTimer(TRANSMISSION_ENDED, txTime);
@@ -144,7 +130,6 @@ void RIMAC::timerFiredCallback(int event){
                         if (!txQueue.empty()) {
                             MacPacket *macFrame = txQueue.front();
                             sendToRadioLayer(macFrame->dup());//cria um novo pacote para enviar
-                            //sendToRadioLayer(macFrame);
                             setState(WAIT_ACK, event);
                             setTimer(DWELL_TIMEOUT, dwellInterval);
                         }
@@ -156,27 +141,8 @@ void RIMAC::timerFiredCallback(int event){
             }
             break;
         case WAIT_ACK_OVER:
-            /*if(event != DWELL_TIMEOUT){
-                cancelTimer(DWELL_TIMEOUT);
-                setTimer(DWELL_TIMEOUT, dwellInterval);
-                return;
-            }
-            setState(SLEEP1, event);*/
             if(event == TRANSMISSION_ENDED){
                 setState(WAIT_DATA, 0);
-
-                //Inicio calculo tempo de transmissao
-                //cPacket *pkt = new cPacket();
-                //MacPacket *macFrame;
-                //beaconQueue.push(macFrame);
-                //macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
-                //encapsulatePacket(macFrame, pkt);
-                //macFrame->setSource(SELF_MAC_ADDRESS);
-                //macFrame->setDestination(BROADCAST_MAC_ADDRESS);
-                //simtime_t txTime = TX_TIME(pkt->getByteLength());
-                //simtime_t txTime = TX_TIME(macFrame->getByteLength());
-                //Fim calculo tempo de transmissao
-
                 cancelTimer(DWELL_TIMEOUT);
                 setTimer(DWELL_TIMEOUT, 1);
             }
@@ -247,47 +213,36 @@ void RIMAC::setState(RIMACState newState, int event){
 }
 
 void RIMAC::sendBeacon(int type, int dest){
-    //cPacket *pkt = new cPacket();
     MacPacket *macFrame;
-    //beaconQueue.push(macFrame);
+    //Beacon enviado apos o receptor despertar
     if(type == 0){
         macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
-        //encapsulatePacket(macFrame, pkt);
         macFrame->setSource(SELF_MAC_ADDRESS);
         macFrame->setDestination(BROADCAST_MAC_ADDRESS);
         sendToRadioLayer(macFrame->dup());
-        //sendToRadioLayer(macFrame);
-        //cancelAndDelete(macFrame);
         setState(WAIT_BEACON_OVER, 0);
         cancelTimer(TRANSMISSION_ENDED);
-        //simtime_t txTime = TX_TIME(pkt->getByteLength());
         simtime_t txTime = TX_TIME(macFrame->getByteLength());
         setTimer(TRANSMISSION_ENDED, txTime);
+    //Beacon enviado apos o receptor detectar uma colisao
     }else if(type == 1){
         backoffTimes = backoffTimes + 1;
         macFrame = new MacPacket("BEACON-BW", MAC_LAYER_PACKET);
-        //encapsulatePacket(macFrame, pkt);
         macFrame->setSource(SELF_MAC_ADDRESS);
         macFrame->setDestination(BROADCAST_MAC_ADDRESS);
         sendToRadioLayer(macFrame->dup());
-        //sendToRadioLayer(macFrame);
-        //cancelAndDelete(macFrame);
         setState(WAIT_BEACON_OVER, 0);
         cancelTimer(TRANSMISSION_ENDED);
-        //simtime_t txTime = TX_TIME(pkt->getByteLength());
         simtime_t txTime = TX_TIME(macFrame->getByteLength());
         setTimer(TRANSMISSION_ENDED, txTime);
+    //Beacon/Ack enviado apos o receptor receber algum dado
     }else if(type == 2){
         macFrame = new MacPacket("BEACON", MAC_LAYER_PACKET);
-        //encapsulatePacket(macFrame, pkt);
         macFrame->setSource(SELF_MAC_ADDRESS);
         macFrame->setDestination(dest);
         sendToRadioLayer(macFrame->dup());
-        //sendToRadioLayer(macFrame);
-        //cancelAndDelete(macFrame);
         setState(WAIT_ACK_OVER, 0);
         cancelTimer(TRANSMISSION_ENDED);
-        //simtime_t txTime = TX_TIME(pkt->getByteLength());
         simtime_t txTime = TX_TIME(macFrame->getByteLength());
         setTimer(TRANSMISSION_ENDED, txTime);
     }
@@ -350,26 +305,15 @@ void RIMAC::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
     if(macPkt == NULL)
         return;
     if(macName=="BEACON" && macPkt->getDestination() == SELF_MAC_ADDRESS){
-        //cancelAndDelete(macPkt);
-        //delete macPkt;
         cancelTimer(ACK_RECEIVED);
         setTimer(ACK_RECEIVED, 0);
-        //return;
     }else if(macName=="BEACON"){
-        //cancelAndDelete(macPkt);
-        //delete macPkt;
         if(hasPacketToSent(macPkt)){
-            //cancelAndDelete(macPkt);
             cancelTimer(BEACON_RECEIVED);
             setTimer(BEACON_RECEIVED, 0);
         }
-        //return;
-        //cancelAndDelete(macPkt);
     }else if(macName=="BEACON-BW"){
-        //delete macPkt;
-        //cancelAndDelete(macPkt);
         if(hasPacketToSent(macPkt)){
-            //cancelAndDelete(macPkt);
             double backoffTimer = 0;
             //cálculo do backoff exponencial
             backoffTimer = backoffBaseValue *
@@ -378,8 +322,6 @@ void RIMAC::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
             cancelTimer(BEACON_RECEIVED);
             setTimer(BEACON_RECEIVED, backoffTimer);
         }
-        //return;
-        //cancelAndDelete(macPkt);
     }else if(macPkt->getDestination() == SELF_MAC_ADDRESS ||
         macPkt->getDestination() == BROADCAST_MAC_ADDRESS)
     {
@@ -406,9 +348,17 @@ bool RIMAC::hasPacketToSent(MacPacket *macFrame){
 void RIMAC::finishSpecific(){
     declareOutput("packetsSent");
     declareOutput("acksReceived");
+    declareOutput("lossRate");
 
     collectOutput("packetsSent", "packetsSent", packetsSent);
     collectOutput("acksReceived", "acksReceived", acksReceived);
+
+    if(packetsSent > 0 && acksReceived > 0){
+        double lossRate = acksReceived/packetsSent;
+        collectOutput("lossRate", "lossRate", lossRate);
+    }else{
+        collectOutput("lossRate", "lossRate", 0);
+    }
 
     while (!txQueue.empty()) {
         cancelAndDelete(txQueue.front());

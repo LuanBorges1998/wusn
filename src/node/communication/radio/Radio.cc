@@ -33,7 +33,8 @@ void Radio::initialize()
 	declareOutput("Buffer overflow");
 
 	// Feito por Luan
-	contador = 0;
+	declareOutput("avgRSSI");
+	/*contador = 0;
 	sumPowerReceived = 0;
 	diferPowerReceived = 0;
 	declareOutput("sensitivity");
@@ -41,11 +42,11 @@ void Radio::initialize()
 	declareOutput("power");
 	declareOutput("contador");
 	declareOutput("sumPowerReceived");
-	declareOutput("diferPowerReceived");
+	declareOutput("diferPowerReceived");*/
 	contRSSI = 0;
 	sumRSSI = 0;
-	declareOutput("contRSSI");
-	declareOutput("sumRSSI");
+	/*declareOutput("contRSSI");
+	declareOutput("sumRSSI");*/
 }
 
 void Radio::handleMessage(cMessage * msg)
@@ -77,11 +78,11 @@ void Radio::handleMessage(cMessage * msg)
 			trace() << "START signal from node " << wcMsg->getNodeID() << " , received power " << wcMsg->getPower_dBm() << "dBm" ;
 
 			//Feito por Luan
-			if(wcMsg->getPower_dBm()!=diferPowerReceived){
+			/*if(wcMsg->getPower_dBm()!=diferPowerReceived){
 				diferPowerReceived = wcMsg->getPower_dBm();
 				collectOutput("power", "Received power", wcMsg->getPower_dBm());
 			}
-			sumPowerReceived += wcMsg->getPower_dBm();
+			sumPowerReceived += wcMsg->getPower_dBm();*/
 
 			/* If the carrier frequency does not match, it is as if we are not receiving it.
 			 * In the future, depending on carrierFreq and bandwidth, we can decide to include
@@ -255,7 +256,7 @@ void Radio::handleMessage(cMessage * msg)
 					sendDelayed(macPkt, PROCESSING_DELAY, "toMacModule");
 
 					//Feito por Luan
-					contador++;
+					/*contador++;*/
 					contRSSI++;
 					sumRSSI += readRSSI();
 
@@ -666,13 +667,16 @@ void Radio::finishSpecific()
 		collectOutput("Buffer overflow", stats.bufferOverflow);
 
 	// Feito por Luan
-	collectOutput("contador", "contador", contador);
+	/*collectOutput("contador", "contador", contador);
 	collectOutput("sumPowerReceived", "sumPowerReceived", sumPowerReceived);
 	collectOutput("diferPowerReceived", "diferPowerReceived", diferPowerReceived);
 	collectOutput("contRSSI", "contRSSI", contRSSI);
-	collectOutput("sumRSSI", "sumRSSI", sumRSSI);
-	declareOutput("avgRSSI");
-	collectOutput("avgRSSI", "avgRSSI", sumRSSI/contRSSI);
+	collectOutput("sumRSSI", "sumRSSI", sumRSSI);*/
+
+	if(sumRSSI > 0 && contRSSI > 0){
+        double avgRSSI = sumRSSI/contRSSI;
+        collectOutput("avgRSSI", "avg rssi", avgRSSI);
+	}
 }
 
 /* Function takes packet from buffer, creates two wireless channel messages to signal

@@ -103,6 +103,9 @@ class EERIMAC: public VirtualMac
     int maxAttempts;
     double ctrlFrameLength;
 
+    int packetsSent;
+    int acksReceived;
+
     bool isChannelClearBool;
 
     cMessage* wakeup;

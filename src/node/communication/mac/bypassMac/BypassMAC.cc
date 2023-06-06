@@ -38,6 +38,10 @@ void BypassMAC::fromNetworkLayer(cPacket * pkt, int destination)
 void BypassMAC::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
 {
 	MacPacket *macPkt = dynamic_cast <MacPacket*>(pkt);
+	string macName = macPkt->getName();
+    if(macName=="INTERFERENCE"){
+        return;
+    }
 	if (macPkt == NULL)
 		return;
 	if (macPkt->getDestination() == SELF_MAC_ADDRESS ||

@@ -1,0 +1,3 @@
+Castalia| what:[SWPTMAC],[Grid9Nodes] (1)
+Castalia| when:2023-04-30 15:16
+Castalia| repeat:0 label:SWPTMAC,Grid9Nodes,payload=100,period=1800,0=0

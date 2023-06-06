@@ -110,6 +110,9 @@ class SWPTMAC: public VirtualMac
     int maxAttempts;
     double ctrlFrameLength;
 
+    int packetsSent;
+    int acksReceived;
+
     bool isChannelClearBool;
 
     bool energyArrived;
